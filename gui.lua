@@ -1,11 +1,13 @@
 local SlapAura = false
 
+-- Create the tab first
 local Tab2 = Window:MakeTab({
     Name = "Slap Aura",
     Icon = "rbxassetid://YourIconIdHere", -- Replace with the actual icon ID
     PremiumOnly = false,
 })
 
+-- Now, you can add the toggle button to Tab2
 Tab2:AddToggle({
     Name = "Slap Aura",
     Default = false,
